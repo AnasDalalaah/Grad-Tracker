@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="CSS/style.css">
+<link rel="stylesheet" href="CSS/reset.css">
+
+    <title>Grades Tracker</title>
+</head>
+<body>
+    <header>
+        <h1>
+            Grades-Tracker
+        </h1>
+    </header>
+    <main>
+        <form  id='form'action="">
+
+            <fieldset>
+                <legend> </legend>
+                <label for="R1">Student Name</label><br>
+                <input type="text" id='R1' required><br><br>
+                <label for="R2">Course</label><br>
+                <select name="R2" id="R2">
+                   
+                    <option value="Math">Math</option>
+                    <option value="English">English</option>
+                    <option value="Arabic">Arabic</option>
+                    <option value="Art">Art</option>
+                    <option value="Science">Science</option>
+
+
+                </select><br><br>
+                <input type="submit" id='submit' value="submit" required><br><br>
+
+            </fieldset>
+        </form>
+        <div id='container'></div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
